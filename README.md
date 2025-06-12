@@ -1,19 +1,37 @@
-# 🎈 Blank app template
+# Simulador de Osmosis en Tejido Vegetal 🥕🥔💧
 
-A simple Streamlit app template for you to modify!
+Este es un **simulador educativo interactivo** que permite a los estudiantes experimentar de manera virtual el proceso de **osmosis en tejidos vegetales** (papa y zanahoria), observando la **variación de masa** tras ser sumergidos en soluciones de NaCl a diferentes concentraciones.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+El objetivo es que los alumnos comprendan cómo el movimiento del agua a través de las membranas celulares depende de la concentración de solutos en el medio.
 
-### How to run it on your own machine
+## 🎓 Objetivos pedagógicos
 
-1. Install the requirements
+- Comprender el proceso de **osmosis**.
+- Analizar experimentalmente la **variación de masa** en tejidos vegetales.
+- Relacionar la concentración externa con la dirección del flujo de agua.
+- Promover la **recolección y análisis de datos** en un entorno virtual.
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+## 🖥️ Características
 
-2. Run the app
+✅ Selección del tipo de vegetal (Papa o Zanahoria)  
+✅ Ingreso de la masa inicial del vegetal  
+✅ Selección de la concentración de NaCl  
+✅ Ingreso del tiempo de inmersión  
+✅ Cálculo de la masa final estimada  
+✅ Interfaz gráfica amigable  
+✅ Simulación simple y reproducible  
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## 🚀 Instalación y uso
+
+### Requisitos
+
+- Python 3.x  
+- Biblioteca `tkinter` (incluida en la instalación estándar de Python)
+
+### Ejecución
+
+1. Clonar este repositorio:
+
+```bash
+git clone https://github.com/TU_USUARIO/simulador-osmosis.git
+cd simulador-osmosis
